@@ -41,7 +41,7 @@ git status
 git commit -m "first commit"
 
 Step: 8 Add repository
-git remote add https://github.com/easabbir/batch14_basic.git
+git remote add origin https://github.com/easabbir/batch14_basic.git
 
 Step: 9 List all currently configured remote repositories:
 git remote -v
