@@ -1,0 +1,119 @@
+changes from my pc
+==============================================================================================
+GIT
+==============================================================================================
+-----------How to pull from any repository----------
+git init
+
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+git remote add origin https://github.com/easabbir/batch-first-project.git
+
+git remote -v
+
+git pull origin master 
+
+============================================================
+How to push to a remote repository
+
+Step: 0 Created a repository : https://github.com/easabbir/batch14_basic.git
+
+Step: 1 Download git and install 
+Step: 2 Created a project with public/private
+
+Step: 3 Understand the commands from here
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+Step: 4 Tell git who u are
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+Step: 5 Create Local repository after installing git in windows/linux/mac
+go to the folder in command line and below command
+git init
+
+Step: 6 Add files
+git add *
+
+Step: 7 Commit
+git status
+git commit -m "first commit"
+
+Step: 8 Add repository
+git remote add https://github.com/easabbir/batch14_basic.git
+
+Step: 9 List all currently configured remote repositories:
+git remote -v
+
+Step: 9 Push code to repository to master
+generate token from github account
+
+git push origin master
+
+git push -u origin master
+
+
+Downloading and pulling
+-----------------------
+Step: 9 Download from a repository (first time) otherwise git pull
+git clone 
+
+Step: 10 Take latest changes in the framework
+git pull origin master 
+
+Branches
+-----------------------------
+
+Step: 11 creating a new branch
+git checkout -b <branchname>
+
+Step: 12 Switching to a newly created branch
+git checkout <branchname>
+
+Step: 13 to list all the branch 
+git branch
+
+Step: 13 Push to the newly created branch
+git push origin <branchname>
+
+Step: 14 After the branch is ready to merge to master
+switch to master branch first: 	git checkout master
+get latest code: 	git pull origin master
+merge: 			git merge <branchname>
+
+
+Delete Branches
+-----------------------------
+git branch -d <branchname>
+
+Reset 
+------------------------
+git fetch origin
+git reset --hard origin/master
+
+--------add unnecessary file stash and pull from server--------
+git add * 
+git stash
+git pull
+
+
+ai site gulo diye creative readme file generate kora jay....
+md file er syntax jana na thakle ai generator site gulo helpful
+
+
+Example of my student after git class
+[1]https://github.com/musthafiz/Load-testing-for-OpenCart-Website
+[2]https://github.com/Akash-Ahmed-CSE
+[3]https://github.com/Rasujon3/Jmeter_Performance_Testing_fakestoreapi
+
+
+ai site gulo diye creative readme file generate kora jay....
+md file er syntax jana na thakle ai generator site gulo helpful
+[1] https://rahuldkjain.github.io/gh-profile-readme-generator/
+[2]https://gprm.itsvg.in/
+[3]https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/about-your-personal-dashboard
+
+Professional git site
+https://github.com/dotnet/BenchmarkDotNet
+
